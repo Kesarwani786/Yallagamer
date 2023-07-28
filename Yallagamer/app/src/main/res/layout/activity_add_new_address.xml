@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingBottom="20dp"
+    tools:context=".UserInterface.address.AddNewAddressActivity">
+
+    <include layout="@layout/layout_titlebar_add_address" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/shipping_user_details"
+                    android:background="@color/light_pink"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp" />
+               <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:hint="@string/layout_address_first_name"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/et_s_shipping_f_name"
+                    android:textSize="15dp"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/layout_address_last_name"
+                    android:singleLine="true"
+                    android:id="@+id/et_s_shipping_l_name"
+                    android:paddingLeft="15dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textSize="15dp"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:paddingLeft="15dp"
+                    android:singleLine="true"
+                    android:id="@+id/et_s_shipping_Mobile_no"
+                    android:textSize="15dp"
+                    android:hint="@string/layout_address_mobile_no"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginHorizontal="10dp"
+                    android:singleLine="true"
+                    android:id="@+id/et_s_shipping_Email_id"
+                    android:paddingLeft="15dp"
+                    android:hint="@string/layout_address_email"
+                    android:background="@drawable/bg_edittext_address"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="SHIPPING ADDRESS"
+                    android:background="@color/light_pink"
+                    android:textColor="@color/black"
+                    android:paddingTop="10dp"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/search_address"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp" />
+                <fragment
+                    android:id="@+id/place_autocomplete_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_10"
+                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/et_s_shipping_address1"
+                    android:layout_marginHorizontal="10dp"
+                    android:hint="@string/layout_address_address_line1"
+                    android:paddingLeft="15dp"
+                    android:textSize="15dp"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/et_s_shipping_address2"
+                    android:hint="@string/layout_address_address_line2"
+                    android:paddingLeft="15dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textSize="15dp"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:paddingLeft="15dp"
+                    android:singleLine="true"
+                    android:digits="1234567890"
+                    android:textSize="15dp"
+                    android:inputType="phone"
+                    android:maxLength="6"
+                    android:id="@+id/et_s_shipping_zipcode"
+                    android:hint="@string/layout_address_zip_code"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:hint="@string/layout_address_city"
+                        android:paddingLeft="15dp"
+                        android:id="@+id/et_s_city"
+                        android:singleLine="true"
+                        android:layout_marginHorizontal="10dp"
+                        android:textSize="15dp"
+                        android:background="@drawable/bg_edittext_address" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="45dp"
+                        android:singleLine="true"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/et_s_state"
+                        android:layout_marginHorizontal="10dp"
+                        android:paddingLeft="15dp"
+                        android:textSize="15dp"
+                        android:hint="@string/layout_address_state"
+                        android:background="@drawable/bg_edittext_address" />
+                </LinearLayout>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:id="@+id/et_s_country"
+                    android:layout_marginHorizontal="10dp"
+                    android:paddingLeft="15dp"
+                    android:textSize="15dp"
+                    android:hint="@string/layout_address_country"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:paddingLeft="15dp"
+                    android:textSize="15dp"
+                    android:gravity="start"
+                    android:id="@+id/et_customer_note"
+                    android:padding="10dp"
+                    android:hint="@string/customerNotes"
+                    android:background="@drawable/bg_edittext_address" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="BILLING ADDRESS"
+                    android:background="@color/light_pink"
+                    android:textColor="@color/black"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/proxima_nova_bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/bg_edittext_address"
+                    android:minHeight="40dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/layout_address_my_billing_address"
+                        android:textSize="13dp"
+                        android:singleLine="true"
+                        android:layout_marginRight="35dp"
+                        android:layout_alignParentLeft="true" />
+                    <CheckBox
+                        android:id="@+id/checkbox"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:checked="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/LinearBillingDetails"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="BILLING CONTACT DETAILS"
+                    android:background="@color/light_pink"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:singleLine="true"
+                    android:hint="@string/layout_address_first_name"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/et_billing_f_name"
+                    android:textSize="15dp"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:hint="@string/layout_address_last_name"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/et_billing_l_name"
+                    android:layout_marginHorizontal="10dp"
+                    android:textSize="15dp"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/et_billing_mobile"
+                    android:singleLine="true"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textSize="15dp"
+                    android:hint="@string/layout_address_mobile_no"
+                    android:background="@drawable/bg_edittext_address" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/et_billing_email"
+                    android:layout_marginHorizontal="10dp"
+                    android:paddingLeft="15dp"
+                    android:hint="@string/layout_address_email"
+                    android:background="@drawable/bg_edittext_address"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:id="@+id/LinearBillingAddress"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="BILLING ADDRESS"
+                    android:background="@color/light_pink"
+                    android:textColor="@color/black"
+                    android:paddingTop="10dp"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/search_address"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp" />
+                <fragment
+                    android:id="@+id/place_autocomplete_fragment1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_10"
+                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:hint="@string/layout_address_address_line1"
+                    android:paddingLeft="15dp"
+                    android:textSize="15dp"
+                    android:id="@+id/et_billing_address1"
+                    android:background="@drawable/bg_edittext_address" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:hint="@string/layout_address_address_line2"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/et_billing_address2"
+                    android:layout_marginHorizontal="10dp"
+                    android:textSize="15dp"
+                    android:background="@drawable/bg_edittext_address" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:singleLine="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:paddingLeft="15dp"
+                    android:textSize="15dp"
+                    android:maxLength="6"
+                    android:inputType="phone"
+                    android:id="@+id/et_billing_zipcode"
+                    android:hint="@string/layout_address_zip_code"
+                    android:background="@drawable/bg_edittext_address" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="45dp"
+                        android:singleLine="true"
+                        android:layout_marginTop="20dp"
+                        android:hint="@string/layout_address_city"
+                        android:id="@+id/et_billing_city"
+                        android:paddingLeft="15dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:textSize="15dp"
+                        android:background="@drawable/bg_edittext_address" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        android:id="@+id/et_billling_state"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:paddingLeft="15dp"
+                        android:textSize="15dp"
+                        android:hint="@string/layout_address_state"
+                        android:background="@drawable/bg_edittext_address" />
+                </LinearLayout>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:paddingLeft="15dp"
+                    android:singleLine="true"
+                    android:textSize="15dp"
+                    android:id="@+id/et_billing_country"
+                    android:hint="@string/layout_address_country"
+                    android:background="@drawable/bg_edittext_address" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="SAVE ADDRESS AS"
+                android:background="@color/light_pink"
+                android:textColor="@color/black"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/proxima_nova_bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/click_home"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/layout_address_home"
+                    android:background="@drawable/gray_border_bg"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/click_work"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:textColor="#4c989d"
+                    android:background="@drawable/green_border_bg"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="@string/layout_address_work"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/light_pink"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                >
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/checkbox_default"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/layout_address_make_this_my"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="5dp"
+                    android:singleLine="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/checkbox_default"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingVertical="10dp"
+                android:paddingBottom="20dp"
+                android:background="@color/white"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#4c989d"
+                    android:text="@string/layout_address_add_address"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

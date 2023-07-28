@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Outline" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorAccent">#f9a825</item>
+        <item name="colorControlNormal">#d3d3d3</item>
+    </style>
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="roundedImageView1" parent="">
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <style name="BottomNavigationViewInactive">
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="BottomNavigationViewActive">
+        <item name="android:textSize">10dp</item>
+    </style>
+</resources>

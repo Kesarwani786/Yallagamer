@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    android:id="@+id/RlYallaCasah"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/img_yallacash_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="8dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_yallacash" />
+
+    <TextView
+        android:id="@+id/tv_yalla_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_yallacash_icon"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="@string/layout_profile_yalla_cash"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_yallacash_desc"
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@+id/img_arrow_1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_yalla_cash"
+        android:layout_marginLeft="5dp"
+        android:textSize="13dp"
+        android:textColor="@color/light_grey"
+        android:layout_toRightOf="@id/img_yallacash_icon"
+        android:text="@string/layout_profile_earn_yallachash_as_you" />
+
+    <ImageView
+        android:id="@+id/img_arrow_1"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="10dp"
+        android:src="@drawable/ic_arrow_icon" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tv_yallacash_desc"
+        android:background="#dfdfdf"
+        />
+</RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/RlYallaSavedCards"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/img_saved_card"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_saved_cards" />
+
+        <TextView
+            android:id="@+id/tv_saved_cards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img_saved_card"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="@string/layout_profile_saved_card"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_wishlist_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_saved_cards"
+            android:layout_marginLeft="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/light_grey"
+            android:layout_toRightOf="@id/img_saved_card"
+            android:text="@string/layout_profile_save_your_card_for" />
+
+        <ImageView
+            android:id="@+id/img_arrow_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_arrow_icon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/img_saved_card"
+            android:background="#dfdfdf"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:id="@+id/parent_address"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+       >
+
+
+        <ImageView
+            android:id="@+id/img_address_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_address_icon" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img_address_icon"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="@string/layout_profile_address"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_address_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_address"
+            android:layout_marginLeft="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/light_grey"
+            android:layout_toRightOf="@id/img_address_icon"
+            android:text="@string/layout_profile_save_address_for" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_arrow_icon" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

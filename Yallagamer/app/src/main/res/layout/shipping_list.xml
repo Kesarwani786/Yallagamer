@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="20dp"
+    android:paddingVertical="5dp"
+    android:paddingHorizontal="10dp"
+    android:minHeight="40dp"
+    android:id="@+id/RlMain"
+    android:background="@drawable/button_background_light"
+    android:layout_height="wrap_content">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:id="@+id/TvText"
+        android:paddingEnd="40dp"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/proxima_nova_regular"
+        tools:ignore="RtlSymmetry" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="25dp"
+        android:id="@+id/imgChecked"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_checked" />
+</RelativeLayout>

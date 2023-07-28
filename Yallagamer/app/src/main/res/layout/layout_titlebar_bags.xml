@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="55dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="40dp"
+                android:layout_centerVertical="true"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/img_back"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="@string/shopping_bag"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/RLWishlist"
+            android:layout_marginHorizontal="@dimen/dp_20"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:src="@drawable/ic_wishlist"
+                app:tint="#DF1717" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:layout_gravity="center_vertical"
+                android:text="@string/move_to_wishlist"
+                android:textAllCaps="true"
+                android:textColor="#DF1717"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

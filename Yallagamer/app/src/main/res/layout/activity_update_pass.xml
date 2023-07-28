@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".UserInterface.update_pass.UpdatePassActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/layout_titlebar_add_address" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_200"
+            android:src="@drawable/banner_image_login_screen"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Outline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20">
+                <EditText
+                    android:id="@+id/etPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Password "
+                    android:inputType="textPassword"
+                    android:maxLength="15"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Outline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etCPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Confirm Password "
+                    android:inputType="textPassword"
+                    android:maxLength="15"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="40dp"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"
+                android:background="#d3d3d3" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginVertical="@dimen/dp_20"
+                android:layout_marginHorizontal="35dp"
+                android:backgroundTint="#4c989d"
+                android:fontFamily="@font/proxima_nova_bold"
+                android:gravity="center"
+                android:text="Update Password "
+                android:textColor="#fff"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

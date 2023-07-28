@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.augurs.yallagamers.UserInterface.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.augurs.yallagamers.UserInterface.categories.CategoriesFragment"
+        android:label="@string/title_categories"
+        tools:layout="@layout/fragment_categories" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_explores"
+        android:name="com.augurs.yallagamers.UserInterface.explore.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/navigation_my_account"
+        android:name="com.augurs.yallagamers.UserInterface.profile.MyProfileFragment"
+        android:label="@string/title_my_account"
+        tools:layout="@layout/fragment_my_profile" />
+</navigation>

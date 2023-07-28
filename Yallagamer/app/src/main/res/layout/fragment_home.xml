@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".UserInterface.home.HomeFragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipe">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/layout_search_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <include
+                    layout="@layout/layout_banner_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <include
+                    layout="@layout/layout_categories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    layout="@layout/layout_fixed_categories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <include
+                    layout="@layout/layout_offer_corner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <include
+                    layout="@layout/layout_gadgets_and_accessories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <include
+                    layout="@layout/layout_collectors_editions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:maxHeight="350dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#f3f3f3"/>
+                <include
+                    layout="@layout/layout_top_games"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <include
+                    layout="@layout/layout_our_blog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:background="#F5F5F5"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/Linear"
+                    android:visibility="gone"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_height="1dp"
+                        android:background="@color/grey"/>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/proxima_nova_regular"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:text="After the wheel, the best invention Is the PlayStation."/>
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/proxima_nova_regular"
+                        android:textColor="@color/grey"
+                        android:textStyle="italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Andrea Pirlo"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

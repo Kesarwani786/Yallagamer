@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:background="@color/white"
+    tools:context=".UserInterface.Order.OrderListingActivity">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <include layout="@layout/layout_titlebar_add_address" />
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:layout_width="match_parent"
+            android:id="@+id/drawer_layout"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recycleview" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/RlEmptyLayout"
+                    android:visibility="gone"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="@dimen/dp_200"
+                        android:id="@+id/IMg"
+                        android:layout_height="@dimen/dp_200"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_empty"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/IMg"
+                        android:text="Oops! Your Order List is Empty"
+                        android:fontFamily="@font/proxima_nova_regular"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dp_20"
+                        android:layout_centerHorizontal="true"/>
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <include layout="@layout/layout_filter_order_listing" />
+
+        </androidx.drawerlayout.widget.DrawerLayout>
+    </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

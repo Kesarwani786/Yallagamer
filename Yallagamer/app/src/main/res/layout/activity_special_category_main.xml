@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInterface.categories.SpecialCategoryMainPageActivity">
+    <include layout="@layout/layout_titlebar_category"
+        android:id="@+id/view_title"
+        />
+    <androidx.core.widget.NestedScrollView
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/dp_50"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        android:fillViewport="true">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:maxHeight="200dp"
+           android:layout_margin="5dp"
+           android:scaleType="fitXY"
+           android:adjustViewBounds="true"
+           android:id="@+id/imgSlider" />
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclarview"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:maxHeight="80dp"
+           android:layout_margin="5dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               android:adjustViewBounds="true"
+               android:id="@+id/imgTopImage"/>
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:maxHeight="200dp"
+           android:layout_marginRight="5dp"
+           android:orientation="horizontal">
+           <ImageView
+               android:layout_width="match_parent"
+               android:adjustViewBounds="true"
+               android:layout_weight="1"
+               android:layout_marginRight="2dp"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               android:id="@+id/imgBottomLeftImage"/>
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_marginLeft="2dp"
+               android:adjustViewBounds="true"
+               android:layout_weight="1"
+               android:visibility="gone"
+               android:layout_height="wrap_content"
+               android:id="@+id/imgBottomRightImage"/>
+       </LinearLayout>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:maxHeight="80dp"
+           android:layout_margin="5dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               android:adjustViewBounds="true"
+               android:id="@+id/imgBottomImage"/>
+       </RelativeLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:paddingVertical="5dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@color/light_brown">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Recommended For you"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:fontFamily="@font/proxima_nova_regular"
+               android:textAllCaps="true"
+               android:textSize="20dp"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Just five more minutes! "
+               android:gravity="center"
+               android:fontFamily="@font/proxima_nova_regular"
+               android:textSize="15dp" />
+       </LinearLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclarview2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginHorizontal="5dp"
+           android:layout_marginBottom="20dp"
+           />
+
+
+   </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RlBottom"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/bottom_tab_menu" />
+    </RelativeLayout>
+</RelativeLayout>

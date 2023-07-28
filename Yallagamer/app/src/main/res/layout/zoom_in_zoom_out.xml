@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dp_10"
+    android:layout_margin="@dimen/dp_10"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.augurs.yallagamers.utills.TouchImageView
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/dp_15"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/touchImageView"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_cross"
+            android:id="@+id/Cross"
+            android:padding="@dimen/dp_5"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/touchImageView"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="@dimen/dp_5"
+            android:layout_marginHorizontal="@dimen/dp_10"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycleview"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

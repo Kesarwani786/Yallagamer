@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/RlMain"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ImgBank1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvBankName"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ImgBank"
+        android:layout_toRightOf="@+id/ImgBank1"
+        android:fontFamily="@font/proxima_nova_alt_bold"
+        android:text="@string/BankName"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ImgBank"
+        android:scaleType="fitXY"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_checked_light"
+        android:layout_alignParentEnd="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/ImgBank1"
+        android:layout_marginBottom="1dp"
+        android:background="@color/light_pink"/>
+</RelativeLayout>

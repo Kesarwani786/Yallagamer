@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\b2a707d2ca2464e663cbb18012e64cc4\\res\\anim\\abc_tooltip_exit.xml"
+    }
+]

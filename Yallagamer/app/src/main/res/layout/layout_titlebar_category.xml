@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="50dp">
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+    <TextView
+        android:layout_toRightOf="@+id/img_back"
+        android:id="@+id/TvText"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        />
+    <ImageView
+        android:id="@+id/img_title_bag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_search" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.03"
+        android:background="#515151"
+        android:visibility="gone" />
+
+
+
+
+
+</RelativeLayout>

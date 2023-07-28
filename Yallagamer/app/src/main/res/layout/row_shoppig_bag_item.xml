@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginVertical="10dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear112"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:id="@+id/RlIMage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_edittext_address"
+            android:layout_height="120dp">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/img"
+                android:layout_margin="10dp"
+                android:layout_centerInParent="true"/>
+            <CheckBox
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:id="@+id/checkbox"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/Linear"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/RlIMage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/TvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_alt_bold"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/TvName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/TvSOldBy"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/proxima_nova_alt_light"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/TvSize"
+                    android:layout_width="match_parent"
+                    android:text="ABC"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/proxima_nova_alt_light"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:background="@drawable/bg_grey"
+                    android:textSize="12dp" />
+                <TextView
+                    android:id="@+id/TvQty"
+                    android:paddingHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:fontFamily="@font/proxima_nova_alt_light"
+                    android:background="@drawable/bg_grey"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TvAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sadasdasdas"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:ellipsize="end"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/TvDielievery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery By"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:ellipsize="end"
+                android:drawableLeft="@drawable/tick"
+                android:drawablePadding="10dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/View1"
+        android:layout_below="@+id/Linear112"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#dadada"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/Linear1"
+        android:layout_below="@+id/View1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:id="@+id/TvRemove"
+            android:gravity="center"
+            android:text="Remove" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dadada"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/TvWishList"
+            android:gravity="center"
+            android:text="Move to WishList" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/View2"
+        android:layout_below="@+id/Linear1"
+        android:layout_height="3dp"
+        android:layout_marginTop="5dp"
+        android:background="#dadada"/>
+</RelativeLayout>

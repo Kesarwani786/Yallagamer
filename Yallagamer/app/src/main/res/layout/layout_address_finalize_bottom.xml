@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/light_pink"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="You will earn 100 Point on this purchase   "
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/black"
+            android:drawableRight="@drawable/ic_information"
+            android:fontFamily="@font/proxima_nova_alt_light"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_pink"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/TvSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/lay_button_background"
+        android:text="@string/PayNow"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:textColor="#fff" />
+</LinearLayout>

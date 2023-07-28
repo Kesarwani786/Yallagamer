@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_light"
+        android:title="@string/title_home" />
+
+
+    <item
+        android:id="@+id/navigation_categories"
+        android:icon="@drawable/categories_light"
+        android:title="@string/title_categories" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/favorite_unlike"
+        android:title="Wishlist" />
+
+    <item
+        android:id="@+id/navigation_my_account"
+        android:icon="@drawable/ic_myaccount_light"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:title="Cart"
+        android:icon="@drawable/ic_cart_light"
+        />
+
+</menu>

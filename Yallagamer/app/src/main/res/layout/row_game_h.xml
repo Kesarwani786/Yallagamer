@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_product"
+    android:layout_width="130dp"
+    android:layout_margin="5dp"
+    android:elevation="0.8dp"
+    android:background="@drawable/border_line_grey"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:id="@+id/iv_item_image"
+            android:scaleType="fitXY"
+            android:layout_margin="0.2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginVertical="@dimen/dp_5"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_brand"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:singleLine="true"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+    </LinearLayout>

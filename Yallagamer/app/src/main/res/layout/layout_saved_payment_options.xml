@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Saved Payment Options"
+        android:background="@color/light_pink"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:paddingLeft="10dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclarview" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Payment Options"
+        android:background="@color/light_pink"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:paddingLeft="10dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclarview_other" />
+</LinearLayout>

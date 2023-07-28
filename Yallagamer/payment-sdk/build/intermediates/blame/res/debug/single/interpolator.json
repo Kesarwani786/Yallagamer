@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\interpolator\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\interpolator\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\interpolator\\mtrl_linear.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\interpolator\\mtrl_linear.xml"
+    }
+]

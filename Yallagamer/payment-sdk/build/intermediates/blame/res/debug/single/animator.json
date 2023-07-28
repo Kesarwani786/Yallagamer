@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\mtrl_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_btn_unelevated_state_list_anim.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\mtrl_btn_unelevated_state_list_anim.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\mtrl_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_btn_state_list_anim.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\mtrl_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\design_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\design_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\design_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\rotate_right_out.xml",
+        "source": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\src\\main\\res\\animator\\rotate_right_out.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\rotate_left_in.xml",
+        "source": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\src\\main\\res\\animator\\rotate_left_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\rotate_left_out.xml",
+        "source": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\src\\main\\res\\animator\\rotate_left_out.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_chip_state_list_anim.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\mtrl_chip_state_list_anim.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\1a0ecd6c7b60cf56dcaa49934615be0e\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\animator\\rotate_right_in.xml",
+        "source": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\src\\main\\res\\animator\\rotate_right_in.xml"
+    }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="@color/white"
+    android:gravity="center|left"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <View
+
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.15"
+        android:background="#516C81" />
+
+    <RadioButton
+        android:id="@+id/radioButtonBag"
+        android:layout_width="wrap_content"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="Bag"
+        android:theme="@style/RadioButtonStyle" />
+    <View
+        android:layout_width="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.15"
+        android:background="@color/light_grey" />
+    <RadioButton
+        android:id="@+id/radioButtonAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:enabled="false"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="Address"
+        android:theme="@style/RadioButtonStyle" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.15"
+        android:background="@color/light_grey" />
+    <RadioButton
+        android:id="@+id/radioButtonPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:enabled="false"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="Payment"
+        android:theme="@style/RadioButtonStyle" />
+</LinearLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <include layout="@layout/line_status"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/light_pink"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TvName"
+            android:textSize="18dp"
+
+            android:layout_toLeftOf="@+id/TvHomeType"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/TvAddress123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TvName"
+            android:layout_marginVertical="2dp"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/TvHomeType"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TvAddress123"
+            android:id="@+id/TvMobile"
+            android:textSize="13dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:id="@+id/TvHomeType"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Home"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/TvAddressListing"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="10dp"
+        android:text="Change or Add Address"
+        android:background="@drawable/button_background1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Shipping List "
+        android:background="@color/light_pink"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleview"/>
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:paddingBottom="10dp"
+        android:text="Standard Shipping -AEDDF.SF(2-3 Days)"
+        android:background="@drawable/button_background_light"/>-->
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Express Shipping(Fedex)-ADERR.AS(1-2 Days) "
+        android:background="@drawable/button_background_light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Same Day Delievery- ADDDD.DD(1-2 Hours) "
+        android:background="@drawable/button_background_light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Picup- Free (Store Opening Hours)"
+        android:background="@drawable/button_background_light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="12dp"
+        android:text="DELIVERY ESTIMATES"
+        android:background="@color/light_pink"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:textColor="@color/black"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Delivery Estimates"
+        android:background="@color/light_pink"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/recycelview12"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/icon_star"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:layout_toEndOf="@+id/icon_star"
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:layout_marginEnd="40dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/icon_info"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_info" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/light_pink" />
+    <TextView
+        android:id="@+id/tv_place_order"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/place_order_btn_bg"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:gravity="center"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+</LinearLayout>

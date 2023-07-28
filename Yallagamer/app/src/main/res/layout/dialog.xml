@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/teal_700"
+            android:id="@+id/TvText"
+            android:layout_height="40dp">
+            <TextView
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/TvTesasd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="YallaGamer App" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_below="@+id/TvText"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:textColor="@color/black"
+            android:id="@+id/TvTeas"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:text="Please check your internet connection  " />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_below="@+id/TvTeas"
+           android:layout_margin="10dp"
+           android:gravity="center"
+           android:layout_centerHorizontal="true"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:id="@+id/TvRetry"
+               android:layout_width="wrap_content"
+               android:paddingLeft="30dp"
+               android:paddingRight="30dp"
+               android:layout_weight="1"
+               android:singleLine="true"
+               android:layout_height="40dp"
+               android:background="@drawable/dark_button_background"
+               android:text="Retry Now"
+               android:gravity="center"
+               android:textSize="12dp"
+               android:textStyle="bold"
+               android:textColor="@color/white"
+               />
+           <TextView
+               android:id="@+id/TvRetryNot"
+               android:layout_width="wrap_content"
+               android:paddingLeft="30dp"
+               android:paddingRight="30dp"
+               android:layout_weight="1"
+               android:singleLine="true"
+               android:layout_height="40dp"
+               android:background="@drawable/button_background"
+               android:text="Not Now"
+               android:layout_margin="10dp"
+               android:layout_below="@+id/TvTeas"
+               android:gravity="center"
+               android:textSize="12dp"
+               android:textColor="@color/teal_700"
+               />
+       </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

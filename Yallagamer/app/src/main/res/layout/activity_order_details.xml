@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".UserInterface.Order.OrderDetailsActivity">
+    <include layout="@layout/layout_titlebar_add_address" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dp_10"
+                android:layout_marginHorizontal="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="@string/customer_information"
+                android:textColor="@color/black"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="15sp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@color/light_pink"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:text="Billing Address"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/TvBillingUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:textColor="@color/black"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:id="@+id/TvBillingAddress"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:id="@+id/TvBillingMobileNO"
+                android:textColor="@color/black"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@color/light_pink"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:text="Shipping Address"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:textColor="@color/black"
+                android:id="@+id/TvShippingUserName"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/TvShippingAddress"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:text="Mobile  +91 969693434"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:textColor="@color/black"
+                android:id="@+id/TvShippingMobile"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@color/light_pink"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:text="Contact Information"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:id="@+id/TvUserName"
+                android:textColor="@color/black"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:id="@+id/TvEmail"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:id="@+id/TvMobile"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@color/light_pink"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:text="Product Information"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycleViewProduct"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@color/light_pink"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:text="Amount Summary"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:text="Payment Method"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:id="@+id/TvPaymentMethod"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:text="Shipping Method"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:id="@+id/TvShippingMethod"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:text="Sub Total"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:id="@+id/TvSubTotal"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/RlSHipping"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:text="Shipping Cost"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:id="@+id/TvShipping"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_2"
+                android:layout_marginVertical="@dimen/dp_10"
+                android:background="@color/light_pink"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:textColor="@color/black"
+                android:text="Taxes"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textSize="13sp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dp_10"
+                android:id="@+id/recycleviewTaxes"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="@dimen/dp_5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Total Amount"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:text="ADSSDE"
+                    android:id="@+id/TvAMount"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/dp_200"
+                android:layout_marginTop="@dimen/dp_20"
+                android:id="@+id/ImgBarCode"
+                android:layout_marginBottom="@dimen/dp_40"
+                android:layout_height="@dimen/dp_100"/>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:paddingBottom="25dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/light_grey"
+        android:text="@string/layout_profile_faqs" />
+
+    <TextView
+        android:id="@+id/tv_about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/light_grey"
+        android:text="@string/layout_profile_about_us" />
+
+    <TextView
+        android:id="@+id/tv_term_of_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/light_grey"
+        android:text="@string/layout_profile_term_of_use" />
+
+    <TextView
+        android:id="@+id/tv_privacy_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/light_grey"
+        android:text="@string/layout_profile_privacy_policy" />
+
+</LinearLayout>

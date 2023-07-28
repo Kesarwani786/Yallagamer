@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/RlOrder"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/img_order_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="8dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_order_icon" />
+
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_order_icon"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="@string/layout_profile_orders"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_order_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_order"
+        android:layout_marginLeft="5dp"
+        android:textSize="13dp"
+        android:textColor="@color/light_grey"
+        android:layout_toRightOf="@id/img_order_icon"
+        android:text="@string/layout_profile_check_order_status" />
+
+    <ImageView
+        android:id="@+id/img_arrow_1"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_arrow_icon" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/img_order_icon"
+        android:background="#dfdfdf"
+        />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/parent_wishlist"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_marginTop="@dimen/dp_10">
+
+
+        <ImageView
+            android:id="@+id/img_wishlist"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_wishlist1" />
+
+        <TextView
+            android:id="@+id/tv_wishlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img_wishlist"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="@string/layout_profile_wishlist"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_wishlist_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_wishlist"
+            android:layout_marginLeft="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/light_grey"
+            android:layout_toRightOf="@id/img_wishlist"
+            android:text="@string/layout_profile_your_most_loved_profile" />
+
+        <ImageView
+            android:id="@+id/img_arrow_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_arrow_icon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/img_wishlist"
+            android:background="#dfdfdf"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:paddingBottom="25dp"
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false">
+
+        <ImageView
+            android:id="@+id/img_refer_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_refer_earn_" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img_refer_icon"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="@string/layout_profile_refer_earn"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_marginLeft="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/light_grey"
+            android:layout_toRightOf="@id/img_refer_icon"
+            android:text="@string/layout_profile_invite_and_earn" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_arrow_icon" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

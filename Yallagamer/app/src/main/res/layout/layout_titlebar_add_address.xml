@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/dp_3"
+    app:cardBackgroundColor="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="@dimen/dp_5"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/black" />
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Address"
+            android:layout_toEndOf="@+id/img_back"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_10"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/dp_5"
+            android:background="@drawable/button_background_dark_grey"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/TvLogin"
+            android:visibility="gone"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:textStyle="bold"
+             android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:text="Login"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="@dimen/dp_5"
+            android:background="@color/white"
+            app:cardElevation="@dimen/dp_6"
+            app:contentPaddingLeft="@dimen/dp_15"
+            android:id="@+id/Card"
+            android:visibility="gone"
+            app:contentPaddingRight="@dimen/dp_15"
+            app:contentPaddingTop="@dimen/dp_3"
+            app:contentPaddingBottom="@dimen/dp_3"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/dp_30"
+                    android:id="@+id/im"
+                    android:padding="@dimen/dp_5"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_filter" />
+
+                <TextView
+                    android:layout_toEndOf="@+id/im"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FILTER"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/proxima_nova_regular" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

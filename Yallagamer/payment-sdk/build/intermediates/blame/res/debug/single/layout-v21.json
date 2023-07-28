@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\0e72b52e876f4c49c268ea3b4b86fd6c\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\0e72b52e876f4c49c268ea3b4b86fd6c\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\0e72b52e876f4c49c268ea3b4b86fd6c\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "F:\\Android\\Network Payment Gateway\\paymentapplication\\paymentapplication\\payment-sdk\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\0e72b52e876f4c49c268ea3b4b86fd6c\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]
